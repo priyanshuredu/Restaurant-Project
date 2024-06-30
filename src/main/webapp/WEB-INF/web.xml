@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>YUMMY</display-name>
+  
+  <!-- Servlet 1 Configuration -->
+  <servlet>
+    <servlet-name>JSPlogin</servlet-name>
+    <servlet-class>com.priyanshu.JSPlogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JSPlogin</servlet-name>
+    <url-pattern>/submit</url-pattern>
+  </servlet-mapping>
+  
+   <!-- Servlet 2 Configuration -->
+   <servlet>
+        <servlet-name>OrderServlet</servlet-name>
+        <servlet-class>com.priyanshu.OrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/order</url-pattern>
+    </servlet-mapping>
+  
+</web-app>
+</elements>

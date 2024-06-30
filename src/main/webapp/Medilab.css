@@ -1,0 +1,885 @@
+@charset "UTF-8";/*
+colgroup{
+    #F1F7FD
+    #FFFFFF white
+    #2C4964 dark-blue
+    #1977CC light-blue
+    #848484 light-black
+    #343A40 medium-black
+    #082744 dark-black
+    #1977CC33 light blue-shadow
+    #444444 black
+    #777777 grey
+    #A0BCD5 icon light bg
+
+    #CE1212 red
+}*/
+
+body {
+    font-family: Amatic SC, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media screen and (max-width:760px) {
+    .menu-options {
+        display: none;
+    }
+
+    .info-container {
+        height: fit-content;
+        width: 100%;
+        padding: 0% 2.5%;
+        flex-direction: column;
+    }
+
+    .info-container-1 {
+        width: 95%;
+        height: fit-content;
+    }
+
+    .info-container-2 {
+        width: 95%;
+        height: fit-content;
+    }
+
+    .about-container {
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+    }
+}
+
+/* header section css */
+
+header {
+    height: 78px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    position: fixed;
+    top: 0;
+    margin-top: 0%;
+    z-index: 1;
+}
+
+.logo {
+    height: 76px;
+    width: 200px;
+    margin-left: 10px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.logo-img {
+    height: 100%;
+    width: 100%;
+    background-image: url("");
+    background-size: cover;
+}
+
+.menu-div {
+    height: 100%;
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 18px 0px 18px 0px;
+}
+
+.menu-options {
+    height: 40px;
+    width: auto;
+    font-size: 24px;
+    border: solid 2px transparent;
+    border-radius: 4px;
+    padding: 11px 0px 11px 0px;
+
+}
+
+.menu-options a {
+    color: #2C4964;
+    text-decoration: none;
+}
+
+.menu-options a:hover {
+    color: #1977CC;
+    text-decoration: underline;
+
+}
+
+.appointment-button {
+    height: 40px;
+    width: 250px;
+    background-color: #CE1212;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-style: Amatic SC, sans-serif;
+    padding: 11px 0px 11px 0px;
+    font-weight: 2px;
+    border: solid 2px transparent;
+    border-radius: 30px;
+}
+.appointment-button a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.appointment-button:hover {
+    background-color: #ce1212cc;
+}
+
+/* Welcome section */
+
+.hero-img {
+    height: 90vh;
+    width: 100%;
+    background-image: url("myrestro-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    padding: 30vh 0px 0vh 10vh;
+    font-size: 60px;
+    font-weight: 700;
+    color: #444444;
+
+}
+
+h2 {
+    padding: 0px 0px 0px 10vh;
+    font-size: 32px;
+    color: #444444;
+}
+
+.start-button {
+    height: 40px;
+    width: 170px;
+    background-color: #ce1212cc;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 11px 0px 11px 0px;
+    font-weight: 1.7px;
+    border: solid 2px transparent;
+    border-radius: 30px;
+    margin: 5vh 0px 0px 10vh;
+}
+
+.start-button:hover {
+    background-color: #CE1212;
+}
+
+/* Why us section */
+
+.menu {
+	width: 100%;
+	height: 550px;
+    padding: 0px;
+    display: flex;
+  }
+  
+ .menu-image-container {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .image {
+  height: 250px;
+  width: 48%;
+  margin: 25px 1% 0px 1%;
+
+  }
+  .image img{
+     height: 100%;
+     width: 100%;
+  }
+   .text {
+   width: 25%;
+   height: 100%;
+    flex: 55%;
+    padding: 40px 0 0 62px;
+  }
+  .menu .text h2 {
+    color: #000;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .menu .text h3 {
+    color: #000;
+    text-align: center;
+  }
+  .menu .text .fa-asterisk {
+    color: #9a9998;
+  }
+  .a-CTA{
+    height: 50px;
+    font-size: 28px;
+    text-decoration: none;
+	text-align: center;
+	float: bottom;
+}
+.a-CTA:hover{
+	text-decoration: underline;
+}
+  /* /End Menu/ */
+
+/* About us section */
+
+.about-container {
+    height: 670px;
+    width: 98%;
+    margin: 150px 1% 20px 1%;
+    display: flex;
+}
+
+.about-video-section {
+    height: 100%;
+    width: 40%;
+    justify-content: start;
+}
+
+
+.about-content {
+    height: 100%;
+    width: 60%;
+    padding-left: 50px;
+}
+
+.content-info {
+    height: 170px;
+    width: 100%;
+    padding: 0;
+}
+
+.content-info-heading {
+    height: 50px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 26px;
+}
+
+.content-info-heading h3 {
+    color: #2C4964;
+    font-size: 32px;
+    font-weight: 2.5rem;
+}
+
+.content-info-para {
+    width: 100%;
+    height: 72px;
+    padding: 0%;
+    margin: 0%
+}
+
+.content-info-para p {
+    color: #444444;
+    font-size: 20px;
+}
+
+.content-section {
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+
+.aobut-icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #d3d3d3;
+    overflow: hidden;
+}
+
+.aobut-icon svg {
+    height: 60%;
+    width: 60%;
+    padding: 20%;
+    background-size: cover;
+}
+
+.aobut-icon:hover {
+    background-color: #d3d3d3;
+    transition: .5s ease-in-out;
+}
+
+.about-content-info {
+    height: 100%;
+    width: fit-content;
+    padding: 10px;
+}
+
+.about-content-info a {
+    font-size: 28px;
+    text-decoration: none;
+    color: #444444;
+    font-weight: bold;
+}
+.about-content-info p{
+    font-size: 20px;
+}
+
+/* Numbers of staffs section */
+
+/* .staff {
+    height: 260px;
+    width: 100%;
+    padding: 70px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #d4eaff;
+}
+
+.staff-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+}
+
+.staff-count {
+    height: 120px;
+    width: 20%;
+    border-radius: 2%;
+    background-color: #FFFFFF;
+}
+
+.staff-icon {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    background-color: #1977CC;
+    position: relative;
+    top: -25%;
+    border-radius: 50%;
+}
+
+.staff-icon svg {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+.count {
+    font-size: 26px;
+    font-weight: bolder;
+    text-align: center;
+    color: #2C4964;
+    font-family: sans-serif;
+    padding: 0px 45%;
+}
+
+.staff-count p {
+    text-align: center;
+    font-size: 16px;
+    color: #444444;
+    padding: 0%;
+    font-weight: normal;
+} */
+
+/* Services available */
+
+.services {
+    height: 975px;
+    width: 90%;
+    margin: 0% 5%;
+}
+
+.services-tittle {
+    height: 158px;
+    width: 100%;
+
+}
+
+.services-tittle h2 {
+    font-size: 34px;
+    text-align: center;
+}
+
+.services-tittle p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.services-main-container {
+    height: 815px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.services-container {
+    height: 330px;
+    width: 29%;
+    text-align: center;
+    border: solid .5px #CE1212;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.services-container a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #2C4964;
+
+}
+
+.container-img {
+    height: 220px;
+    width: 95%;
+    padding: 2.5%;
+}
+
+
+.services-container:hover a {
+
+    color: #FFFFFF;
+}
+
+.services-container:hover {
+    background-color: #ce1212cc;
+    color: #FFFFFF;
+}
+
+/* Appointment section */
+
+.appointment-section {
+    height: 590px;
+    width: 90%;
+    padding: 3% 5%;
+    background-color: #d4eaff;
+}
+
+.user-input {
+    height: 330px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.user-input-box {
+    width: 30.5%;
+    height: 34px;
+    margin: 2.5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user-input-select {
+    width: 32.3%;
+    height: 53px;
+    padding: 10px;
+    margin: 2.5px;
+    border-radius: 5px;
+}
+
+.user-input-messagearea {
+    width: 96.5%;
+    height: 160px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+/* Department details */
+
+.department-container {
+    height: 504px;
+    width: 90%;
+    padding: 3% 5%;
+}
+
+.department-main-container {
+    height: 252px;
+    width: 100%;
+    display: flex;
+}
+
+.department-category {
+    height: 100%;
+    width: 30%;
+    align-content: space-evenly;
+}
+
+.category-section {
+    height: 26px;
+    width: 100%;
+    font-size: 15px;
+    padding: 12px 15px 12px 0px;
+}
+
+.category-section a {
+    font-weight: 5px;
+    text-decoration: none;
+    color: #2C4964;
+
+}
+
+/* Doctors profiles */
+
+.doctor-container {
+    height: 734px;
+    width: 90%;
+    padding: 3% 5%;
+
+}
+
+.doctor-profile-section {
+    height: 570px;
+    width: 90%;
+    padding: 0% 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.doctor-profile {
+    height: 190px;
+    width: 40%;
+    margin: 0% 2.5%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.799);
+    padding: 30px;
+    display: flex;
+}
+
+.profile-img {
+    height: 100%;
+    width: 35%;
+
+}
+
+.doctor-img {
+    height: 80%;
+    width: 80%;
+    padding: 10%;
+    border-radius: 50%;
+    overflow: hidden !important;
+}
+
+.doctor-profile:hover .doctor-img {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.doctor-info {
+    height: 80%;
+    width: 45%;
+    padding: 0% 10%;
+
+}
+
+.doctor-info h3 {
+    font-size: larger;
+    font-weight: bold;
+    color: #2C4964;
+    padding: 5px 0px;
+    margin: 0%;
+}
+
+.doctor-info span {
+    padding-top: 10px;
+    font-size: 24px;
+    color: #444444;
+}
+
+.doctor-info p {
+    font-size: 14px;
+    color: #444444;
+}
+
+.doctor-social {
+    height: 32px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.social-icons {
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #d5d5d5;
+}
+
+.social-icons svg {
+    height: 70%;
+    width: 70%;
+    padding: 15%;
+}
+
+.social-icons:hover {
+    background-color: #848484;
+}
+
+/* Gallery section   */
+
+.gallery-section {
+    height: 740px;
+    width: 100%;
+}
+
+.gallery-img-section {
+    height: 580px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.gallery-img-container {
+    width: 24%;
+    height: 280px;
+    padding: .2%;
+}
+
+.gallery-img {
+    height: 100%;
+    width: 100%;
+}
+
+.gallery-img-container:hover {
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
+    overflow: hidden;
+}
+
+/* Contact section */
+
+.contact-section {
+    height: 1000px;
+    width: 100%;
+
+}
+
+.map-container {
+    height: 356px;
+    width: 100%;
+}
+
+.map {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-info {
+    height: 490px;
+    width: 100%;
+    display: flex;
+}
+
+.our-contact-info {
+    height: 100%;
+    width: 30%;
+}
+
+.info-div {
+    height: 54px;
+    width: 100%;
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.info-icon {
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    margin-left: 40px;
+    background-color: #d3d3d3;
+}
+
+.info-icon svg {
+    height: 70%;
+    width: 70%;
+    padding: 15%;
+}
+
+.info-info {
+    height: 54px;
+}
+
+.info-info h3 {
+    font-size: larger;
+    font-weight: bolder;
+    margin: 0px 0px 0px 10px;
+    color: #2C4964;
+}
+
+.info-info span {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #444444;
+}
+
+.user-contact {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.user-contact-box {
+    height: 24px;
+    width: 346px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.user-contact-sub {
+    height: 24px;
+    width: 752px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+}
+
+.user-contact-message {
+    height: 115px;
+    width: 750px;
+    padding: 10px 0px 0px 10px;
+    margin-top: 10px;
+}
+
+.user-contact-sendbutn {
+    height: 40px;
+    width: 170px;
+    background-color: #ce1212cc;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 11px 0px 11px 0px;
+    font-weight: 1.7px;
+    border: solid 2px transparent;
+    border-radius: 30px;
+}
+
+.user-contact-sendbutn:hover {
+    background-color: #CE1212;
+}
+
+/* Footer of page */
+
+footer {
+    height: 340px;
+    width: 93%;
+    box-shadow: 5px 0px 10px rgba(128, 128, 128, 0.342);
+    display: flex;
+    padding: 50px 50px;
+}
+
+.about-us {
+    height: 100%;
+    width: 25%;
+
+}
+
+.about-us h4 {
+    font-size: 32px;
+    color: #444444;
+    margin: 0px 0px 8px;
+}
+
+.about-us p {
+    font-size: 18px;
+    color: #777777;
+    width: 300px;
+}
+
+.about-us span {
+    font-weight: bold;
+    color: #444444;
+}
+
+.our-links {
+    height: 100%;
+    width: 15%;
+
+}
+
+.our-links span {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #444444;
+    padding: 0px 0px 50px;
+
+}
+
+.about-aero {
+    width: fit-content;
+    color: #CE1212;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.about-aero a {
+    text-decoration: none;
+    color: #777777;
+    font-size: 20px;
+
+}
+
+.news-letter {
+    height: 100%;
+    width: 40%;
+    margin-left: 7%;
+}
+
+.news-letter span {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #444444;
+}
+
+.news-letter p {
+    font-size: 20px;
+    color: #444444;
+    width: 70%;
+    padding: 20px 0px;
+}
+
+.subscribe-div {
+    height: 44px;
+    width: 70%;
+    border: 0.5px solid #CE1212;
+    border-radius: 20px;
+    display: flex;
+}
+
+.subscribe-div input {
+    height: 80%;
+    width: 90%;
+    margin: 0px;
+    border: 0px solid transparent;
+    border-radius: 18px;
+}
+
+.subscribe-btn {
+    height: 99%;
+    width: 50%;
+    background-color: #CE1212;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1.5px solid transparent;
+    border-radius: 18px;
+}
+
+.subscribe-btn:hover {
+    background-color: #ce1212cc;
+}

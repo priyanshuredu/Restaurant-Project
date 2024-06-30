@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi-h7fTjrp3wSTD2Kg4TylyvDorG5qcq7EZQ&s');
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+#main-container {
+    height: 500px;
+    width: 60%;
+    background-color: #053B50;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 8%;
+}
+
+#left-container {
+    height: 100%;
+    width: 60%;
+    background-color: #EEEEEE;
+    border-radius: 19px 85px 85px 19px;
+}
+
+#left-container a {
+    margin-left: 155px;
+    color: gray;
+    font-size: 14px;
+}
+
+.info-container {
+    height: 90%;
+    width: 80%;
+    margin: 5% 10% 0 10%;
+    background-color: #EEEEEE;
+    /* border: 1px solid #053B50; */
+}
+
+.heading {
+    height: 50px;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 1000;
+    text-align: center;
+    color: #053B50;
+}
+
+.bar1 {
+    height: 3px;
+    width: 80px;
+    background-color: #176B87;
+    border-radius: 5px;
+    margin-left: 40%;
+}
+
+.icon-sec {
+    height: 40px;
+    width: 30%;
+    display: flex;
+    margin: 0 35%;
+}
+
+.icons {
+    height: 90%;
+    width: 33%;
+    border: 1px solid #053B50;
+    border-radius: 50%;
+    margin: 5% 1%;
+}
+
+.icons:hover {
+    background-color: #176B87;
+}
+
+.icons svg {
+    height: 70%;
+    width: 70%;
+    padding: 15%;
+}
+
+.info-container p {
+    text-align: center;
+    font-weight: 200;
+    color: #053B50;
+}
+
+.input-box input {
+    height: 50px;
+    width: 90%;
+    background-color: #EEEEEE;
+    border: 1px solid #176B87;
+    border-radius: 5px;
+    margin: 1% 5%;
+}
+
+.button-box {
+    height: 40px;
+    width: 90%;
+    margin: 1% 5%;
+    padding: 0;
+}
+
+.button-box button {
+    height: 40px;
+    width: 45%;
+    margin: 0 2.2%;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    background-color: #EEEEEE;
+    font-size: 16px;
+    color: #053B50;
+    font-weight: 525;
+}
+
+.button-box button:hover {
+    transform: scale(1.1);
+}
+
+.button1 {
+    height: 40px;
+    width: 30.5%;
+    border-radius: 18px;
+    border: 1px solid transparent;
+    color: #EEEEEE;
+    background-color: #053B50;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 1% 0 0 30%;
+}
+
+.button1:hover {
+    background-color: #176B87;
+}
+
+#right-container {
+    height: 60%;
+    width: 30%;
+    background-color: #053B50;
+    border-radius: 19px;
+    margin: 15% 5% 20% 5%;
+}
+
+#right-container h2 {
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 24px; /* Added missing font-size */
+    text-align: center;
+}
+
+#right-container p {
+    color: #EEEEEE;
+    font-size: 16px; /* Added missing font-size */
+    text-align: center;
+}
+
+.button2 {
+    height: 40px;
+    width: 115px;
+    border-radius: 18px;
+    border: 1px solid transparent;
+    color: #053B50;
+    background-color: #EEEEEE;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0 0 70px;
+}
+
+.button2:hover {
+    transform: scale(1.1);
+}
+
+.bar2 {
+    height: 3px;
+    width: 60px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    margin-left: 37%;
+}

@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+body {
+    font-family: Amatic SC, sans-serif;
+    padding: 0px;
+    background-color: #f2f2f2;
+    margin: 0px;
+}
+
+header {
+    height: 78px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    position: fixed;
+    top: 0;
+    margin-top: 0%;
+    z-index: 1;
+}
+
+.logo {
+    height: 76px;
+    width: 200px;
+    margin-left: 10px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.logo-img {
+    height: 100%;
+    width: 100%;
+    background-image: url("");
+    background-size: cover;
+}
+
+.menu-div {
+    height: 100%;
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 18px 0px 18px 0px;
+}
+
+.menu-options {
+    height: 40px;
+    width: auto;
+    font-size: 24px;
+    border: solid 2px transparent;
+    border-radius: 4px;
+    padding: 11px 0px 11px 0px;
+
+}
+
+.menu-options a {
+    color: #2C4964;
+    text-decoration: none;
+}
+
+.menu-options a:hover {
+    color: #1977CC;
+    text-decoration: underline;
+
+}
+
+.appointment-button {
+    height: 40px;
+    width: 250px;
+    background-color: #CE1212;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-style: Amatic SC, sans-serif;
+    padding: 11px 0px 11px 0px;
+    font-weight: 2px;
+    border: solid 2px transparent;
+    border-radius: 30px;
+}
+
+.appointment-button:hover {
+    background-color: #ce1212cc;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+
+}
+thead {
+	    padding: 8px;
+    text-align: left;
+    background-color: #CE1212; 
+}
+
+th {
+    padding: 8px;
+    text-align: left;   
+}
+td {
+	padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #CE1212;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+button {
+    background-color: #CE1212;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(234, 62, 62);
+}
+label {
+	padding-left: 140px;
+	font-size: 18px;
+	font-weight: bold;
+}
+select{
+	height: 38px;
+	width: 100px;
+}
+
+
